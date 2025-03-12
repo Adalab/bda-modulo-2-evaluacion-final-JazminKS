@@ -1,4 +1,4 @@
-### Evaluación Final Módulo 2: SQL
+# Evaluación Final Módulo 2: SQL
 
 > Esta evaluación consta de una serie de preguntas que miden tu comprensión y habilidades en relación con SQL imprescindible para trabajar con bases de datos.
 >
@@ -14,7 +14,7 @@
 
 Para este ejercicio utilizaremos la bases de datos `Sakila`. Es una base de datos de ejemplo que simula una tienda de alquiler de películas. Contiene tablas como film (películas), actor (actores), customer(clientes), rental (alquileres), category (categorías), entre otras. 
 
-![Diagrama](https://github.com/Adalab/bda-modulo-2-evaluacion-final-JazminKS/blob/main/FILES/Diagrama1.png){withd=80%}
+![Diagrama](https://github.com/Adalab/bda-modulo-2-evaluacion-final-JazminKS/blob/main/FILES/Diagrama1.png)
 
 ## Desarrollo de ejercicio
     Ejemplo:
@@ -34,14 +34,3 @@ SELECT first_name, last_name
      WHERE actor_id NOT IN (SELECT actor_id
 					   FROM film_actor); 
 ```
-
-
-
-
-
-
-
-
-
-
-
