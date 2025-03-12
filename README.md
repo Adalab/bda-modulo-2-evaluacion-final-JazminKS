@@ -1,6 +1,6 @@
 ### Evaluación Final Módulo 2: SQL
 
-> Esta evaluación consta de una serie de preguntas que miden tu comprensión y habilidades en relación con SQL imprescindible para trabajar con bases de datos 
+> Esta evaluación consta de una serie de preguntas que miden tu comprensión y habilidades en relación con SQL imprescindible para trabajar con bases de datos.
 >
 ##  Criterios de evaluación
 
@@ -14,7 +14,7 @@
 
 Para este ejercicio utilizaremos la bases de datos `Sakila`. Es una base de datos de ejemplo que simula una tienda de alquiler de películas. Contiene tablas como film (películas), actor (actores), customer(clientes), rental (alquileres), category (categorías), entre otras. 
 
-![Diagrama](Diagrama1.png)
+![Diagrama](Diagrama1.png){withd=80%}
 
 
 ## Desarrollo de ejercicio
@@ -33,7 +33,7 @@ SELECT actor_id, film_id
 SELECT first_name, last_name
      FROM actor
      WHERE actor_id NOT IN (SELECT actor_id
-					        FROM film_actor); 
+					   FROM film_actor); 
 ```
 
 
