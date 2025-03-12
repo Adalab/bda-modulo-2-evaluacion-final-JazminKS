@@ -14,8 +14,7 @@
 
 Para este ejercicio utilizaremos la bases de datos `Sakila`. Es una base de datos de ejemplo que simula una tienda de alquiler de películas. Contiene tablas como film (películas), actor (actores), customer(clientes), rental (alquileres), category (categorías), entre otras. 
 
-![Diagrama](Diagrama1.png){withd=80%}
-
+![Diagrama](https://github.com/Adalab/bda-modulo-2-evaluacion-final-JazminKS/blob/main/FILES/Diagrama1.png){withd=80%}
 
 ## Desarrollo de ejercicio
     Ejemplo:
